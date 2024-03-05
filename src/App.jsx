@@ -1,13 +1,14 @@
 import { GlobalStyles } from "./GlobalStyles/GlobalStyles";
+import User from "./components/users/Users";
+
 
 const App = () => {
 	return <>
 	<GlobalStyles></GlobalStyles>
-	<h1>Núcleo de la aplicación</h1>;
-	
-	
+	<User/>
 	</> 
 	
 };
+
 
 export default App;
